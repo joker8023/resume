@@ -1,0 +1,178 @@
+---
+update_time: '2018.2.22'
+name: 蒋凯
+nickname: 
+meta_content:
+keywords: 后端,python,工作,简历
+ga_id:
+age: 24岁
+gender: 男
+school: 上海建桥学院
+profession: 计算机科学与技术
+grade:
+english_level: CET-4
+blog: https://joker8023.github.io/
+github: https://github.com/joker8023
+website:
+online:
+print:
+apply_to_position: python后端工程师
+contact: # 联系方式
+  -
+    icon: fa-envelope
+    name: Email
+    value: undertonememories@gmail.com
+  -
+    icon: fa-wechat
+    name: 微信
+    value: '18817814702'
+  -
+    icon: fa-phone-square
+    name: 联系方式
+    value: '18817814702'
+honor: # 奖项荣誉
+  -
+    date: 2017.3
+    name: 全国计算机三级 -- 信息安全证书
+  -
+    date: 2017.6
+    name: 上海市优秀毕业生
+
+tech: # 技能点
+  -
+    name: HTML/CSS
+    percentage: 70%
+  -
+    name: JavaScript
+    percentage: 70%
+
+  -
+    name: Git
+    percentage: 80%
+  -
+    name: Node.js
+    percentage: 30%
+  -
+    name: angular
+    percentage: 60%
+  -
+    name: TypeScript
+    percentage: 60%
+  -
+    name: Python
+    percentage: 80%
+  -
+    name: Golang
+    percentage: 40%
+experience: # 项目经验
+  -
+    section: 上海建桥学院
+    project:
+      -
+        name: 后勤
+        date: 2016.1-2017.6
+        img:
+        website:
+        source_code:
+        des: !!md |
+          ### 完成的项目包括
+          1 考勤系统
+          2 植物认领
+          3 失物招领
+          4 素质拓展学分
+          5 工资查询
+          6 报修
+          7 定水
+          8 寝室用电
+          ...
+          第一阶段：完成各个独立的系统，并且可以上线使用
+          第二阶段：将各个系统的数据集中，集成到微信公众号和企业号
+          第三阶段：所有功能移植到ios 和android
+          最后设计一套统一的身份认证，连通各个客户端的各个系统
+          技术栈主要是
+
+          MySql/MsSql
+          html5
+          css3
+          Golang
+          Angular4
+          Java
+          C#
+          Python
+  -
+      section: William O'neil China
+      project:
+        -
+          name: 股票金融
+          date: 2016.1-2017.6
+          img:
+          website:
+          source_code:
+          des: !!md |
+            ### 完成的项目包括
+            1 后台管理网站
+            2 股票金融数据处理
+            3 新闻爬虫
+            4 service api
+            5 自动化部署
+            6 docker容器化
+
+            技术栈主要是
+            Python
+            Html5
+            Css3
+            Angular4
+            C#
+
+
+skill: # 技能清单
+  -
+    section: 前端
+    project:
+      -
+        name: HTML&CSS
+        des: !!md |
+          能够编写语义化的 HTML，完成较复杂的布局
+      -
+        name: JavaScript
+        des: !!md |
+          使用jQuery 类库编码
+          了解JS模块化、面向对象的方式编程、ES6新特性
+      -
+        name: 前端框架
+        des: !!md |
+          前端三大框架avr都有所涉及，熟练使用angular构建前端项目，有过项目经验
+          前端安全、性能优化、http缓存
+  -
+    section: 后端
+    project:
+      -
+        name: Python
+        des: !!md |
+          熟练使用Django、flask、tornado构建web应用
+          熟练使用Python作数据处理（股票金融数据）
+          熟练使用Python爬虫（主要是国内外的股票新闻）
+      -
+        name: Golang
+        des: !!md |
+          熟练使用beego框架构建web应用
+
+
+  -
+    section: 其他属性
+    project:
+      -
+        name: jenkins自动化
+        des: !!md |
+          部署配置jenkins，完成公司web项目，api项目自动化部署
+          ios 和android app自动打包然后归档展示
+          部分项目使用docker自动生成生成容器并部署
+      -
+        name: docker容器编排
+        des: !!md |
+              使用docker容器化部分项目
+      -
+        name: 数据库
+        des: !!md |
+              熟练使用关系型数据库，以及redis
+---
