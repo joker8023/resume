@@ -8,7 +8,7 @@ const markdownItAttrs = require('markdown-it-attrs')
 const nib = require('nib')
 const $ = require('gulp-load-plugins')()
 const browserSync = require('browser-sync').create()
-
+const ghPages = require('gulp-gh-pages');
 const isProd = process.env.NODE_ENV === 'production'
 
 const md = new MarkdownIt({
@@ -85,4 +85,13 @@ gulp.task('default', ['scripts', 'styles', 'fonts','html'], () => {
   gulp.watch(paths.styles, ['styles'])
   gulp.watch(['template/*.html', 'data.yaml'], ['html'])
   gulp.watch(["resume/*.html", "resume/assets/*.*"]).on('change', browserSync.reload)
-})
+});
+
+gulp.task('deploy', function() {
+    return gulp.src('./dist/**/*')
+        .pipe(ghPages());
+});
+
+
+
+
