@@ -88,7 +88,7 @@ gulp.task('default', ['scripts', 'styles', 'fonts','html'], () => {
 });
 
 gulp.task('deploy', function() {
-    return gulp.src('./dist/**/*')
+    return gulp.src('./resume/**/*')
         .pipe(ghPages());
 });
 

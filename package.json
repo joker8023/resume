@@ -7,6 +7,7 @@
     "start": "gulp",
     "build": "NODE_ENV=production gulp",
     "public": "rimraf dist && npm run build && node public.js",
+    "deploy": "gulp deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
