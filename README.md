@@ -1,16 +1,40 @@
-## Usage
+resume
+================
 
-### 安装依赖
+Table of Contents
+-----------------
 
-```javascript
-npm i
+ * [Requirements](#requirements)
+ * [Usage](#usage)
+ * [Editor](#Editor)
+ * [Deploy](#Deploy)
+
+Requirements
+------------
+requires the following to run:
+
+  * nodejs
+  * npm
+
+Usage
+-------
+
+
+```
+npm install
+npm run start
 ```
 
-### Dev
+Editor
+-------
 
-```javascript
-npm start
-```
-### 修改
+Modify the data.yaml
 
-data.yaml文件修改即可
+Deploy
+-------
+
+npm  run deploy
+
+
+
+
