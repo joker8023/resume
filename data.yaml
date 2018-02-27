@@ -85,20 +85,12 @@ experience: # 项目经验
           7 定水
           8 寝室用电
           ...
+          工作内容：
           第一阶段：完成各个独立的系统，并且可以上线使用
           第二阶段：将各个系统的数据集中，集成到微信公众号和企业号
           第三阶段：所有功能移植到ios 和android
           最后设计一套统一的身份认证，连通各个客户端的各个系统
-          技术栈主要是
-
-          MySql/MsSql
-          html5
-          css3
-          Golang
-          Angular4
-          Java
-          C#
-          Python
+          技术栈:MySql/MsSql,html5,css3,Golang,Angular4,Java,C#,Python
   -
       section: William O'neil China
       project:
@@ -116,8 +108,9 @@ experience: # 项目经验
             4 service api
             5 自动化部署
             6 docker容器化
-
-
+            工作内容：后台相关api、数据迁移，后台管理系统，搭建docker容器云，使用TensorFlow训练神经网络，构建相关rpc框架
+            技术栈：MySql/MsSql,html5,css3,Golang,Angular4,Java,C#,Python，
+            相关框架及技术：Docker,Kubernetes,TensorFlow,thrift,protobuf
 skill: # 技能清单
   -
     section: 前端
