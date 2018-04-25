@@ -1,5 +1,8 @@
 resume
 ================
+see it
+[https://joker8023.github.io/resume/](https://joker8023.github.io/resume/)
+
 
 Table of Contents
 -----------------
@@ -34,6 +37,7 @@ Deploy
 -------
 
 npm  run deploy
+
 
 
 
