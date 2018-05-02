@@ -1,5 +1,5 @@
 ---
-update_time: '2018.2.22'
+update_time: '2018.5.2'
 name: 蒋凯
 nickname: 
 meta_content:
@@ -16,7 +16,7 @@ github: https://github.com/joker8023
 website:
 online:
 print:
-apply_to_position: python后端工程师
+apply_to_position: 全栈工程师
 contact: # 联系方式
   -
     icon: fa-envelope
@@ -32,10 +32,10 @@ contact: # 联系方式
     value: '18817814702'
 honor: # 奖项荣誉
   -
-    date: 2017.3
+    date: 2016.3
     name: 全国计算机三级 -- 信息安全证书
   -
-    date: 2017.6
+    date: 2016.6
     name: 上海市优秀毕业生
 
 tech: # 技能点
@@ -96,7 +96,7 @@ experience: # 项目经验
       project:
         -
           name: 股票金融
-          date: 2016.1-2017.6
+          date: 2017.6-2018.5
           img:
           website:
           source_code:
