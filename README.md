@@ -1,44 +1,33 @@
-resume
-================
+# resume
+
 see it
 [https://joker8023.github.io/resume/](https://joker8023.github.io/resume/)
 
+## Table of Contents
 
-Table of Contents
------------------
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Editor](#Editor)
+- [Deploy](#Deploy)
 
- * [Requirements](#requirements)
- * [Usage](#usage)
- * [Editor](#Editor)
- * [Deploy](#Deploy)
+## Requirements
 
-Requirements
-------------
 requires the following to run:
 
-  * nodejs
-  * npm
+- nodejs
+- yarn
 
-Usage
--------
-
+## Usage
 
 ```
-npm install
-npm run start
+yarn
+yarn start
 ```
 
-Editor
--------
+## Editor
 
 Modify the data.yaml
 
-Deploy
--------
+## Deploy
 
-npm  run deploy
-
-
-
-
-
+yarn deploy

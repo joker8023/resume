@@ -1,6 +1,27 @@
-node_modules
-npm-debug.log
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+
+# production
+/dist
+/deploy/node_modules
+/deploy/dist
+/coverage
+
+# misc
 .DS_Store
-dist
-.idea/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+
 .publish/
