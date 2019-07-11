@@ -1,11 +1,11 @@
 ---
-update_time: '2018.5.2'
+update_time: '2019.7.11'
 name: 蒋凯
-nickname: 
+nickname:
 meta_content:
-keywords: 后端,python,工作,简历
+keywords: 全栈,python,工作,简历,技术总监
 ga_id:
-age: 24岁
+age: 26岁
 gender: 男
 school: 上海建桥学院
 profession: 计算机科学与技术
@@ -16,149 +16,132 @@ github: https://github.com/joker8023
 website:
 online:
 print:
-apply_to_position: 全栈工程师
+head_portrait: https://cdn.viinet.com/public/1562728215294180.jpg
+apply_to_position: 全栈工程师 | 技术主管
 contact: # 联系方式
-  -
-    icon: fa-envelope
+  - icon: fa-envelope
     name: Email
     value: i@joker.org.cn
-  -
-    icon: fa-wechat
+  - icon: fa-wechat
     name: 微信
     value: '18817814702'
-  -
-    icon: fa-phone-square
+  - icon: fa-phone-square
     name: 联系方式
     value: '18817814702'
 honor: # 奖项荣誉
-  -
-    date: 2016.3
+  - date: 2016.3
     name: 全国计算机三级 -- 信息安全证书
-  -
-    date: 2016.6
+  - date: 2016.6
     name: 上海市优秀毕业生
 
 tech: # 技能点
-  -
-    name: HTML/CSS
+  - name: Git
+    percentage: 80%
+  - name: React
+    percentage: 80%
+  - name: Angular
+    percentage: 80%
+  - name: Vue
     percentage: 70%
-  -
-    name: JavaScript
+  - name: TypeScript
+    percentage: 80%
+  - name: Python
+    percentage: 80%
+  - name: Golang
+    percentage: 70%
+  - name: Docker
+    percentage: 70%
+  - name: Sql
     percentage: 70%
 
-  -
-    name: Git
-    percentage: 80%
-  -
-    name: Node.js
-    percentage: 30%
-  -
-    name: angular
-    percentage: 60%
-  -
-    name: TypeScript
-    percentage: 60%
-  -
-    name: Python
-    percentage: 80%
-  -
-    name: Golang
-    percentage: 40%
-experience: # 项目经验
-  -
-    section: 上海建桥学院
+skill: # 技能清单
+  - section: 前端
     project:
-      -
-        name: 后勤
+      - name: JavaScript | TypeScript
+        des: !!md |
+          熟练JS模块化、面向对象的方式编程、ES7新特性
+      - name: 前端框架
+        des: !!md |
+          熟练使用前端三大框架React,Angular,Vue。使用React Native 构建APP项目。
+          尝试过用Flutter搭建APP。
+          前端安全、性能优化、http缓存。
+      - name: 微信公众号 | 微信小程序
+        des: !!md |
+          微信公众号二次开发以及微信小程序的开发
+  - section: 后端
+    project:
+      - name: Python
+        des: !!md |
+          熟练使用Django、flask、tornado构建web应用
+          熟练使用Python作数据处理（股票金融数据）
+          熟练使用Python爬虫
+          熟练使用Python构建微服务（GRPC）
+      - name: Golang
+        des: !!md |
+          熟练使用Gin,Beego构建Web应用
+          使用Go搭建API网关
+  - section: 其他属性
+    project:
+      - name: Jenkins自动化
+        des: !!md |
+          部署配置Jenkins，完成公司Web项目，项目自动化部署
+      - name: Docker容器编排
+        des: !!md |
+          使用Docker容器化项目
+      - name: 数据库
+        des: !!md |
+          熟练使用关系型数据库Mysql,Postgresql
+          以及菲关系型数据库Redis
+      - name: 消息队列
+        des: !!md |
+          熟练使用RabbitMQ 处理异步操作
+      - name: 区块链
+        des: !!md |
+          实现过区块链的基本功能
+          项目地址：https://github.com/joker8023/block
+
+experience: # 项目经验
+  - section: 上海建桥学院
+    project:
+      - name: 全栈工程师
         date: 2016.1-2017.6
         img:
         website:
         source_code:
         des: !!md |
-          ### 完成的项目包括
-          1 考勤系统
-          2 植物认领
-          3 失物招领
-          4 素质拓展学分
-          5 工资查询
-          6 报修
-          7 定水
-          8 寝室用电
-          ...
           工作内容：
-          第一阶段：完成各个独立的系统，并且可以上线使用
+          第一阶段：完成各个独立的系统（包括不限于学分系统，考勤系统，报修系统，寝室打分系统），并且可以上线使用
           第二阶段：将各个系统的数据集中，集成到微信公众号和企业号
           第三阶段：所有功能移植到ios 和android
           最后设计一套统一的身份认证，连通各个客户端的各个系统
-          技术栈:MySql/MsSql,html5,css3,Golang,Angular4,Java,C#,Python
-  -
-      section: William O'neil China
-      project:
-        -
-          name: 股票金融
-          date: 2017.6-2018.5
-          img:
-          website:
-          source_code:
-          des: !!md |
-            ### 完成的项目包括
-            1 后台管理网站
-            2 股票金融数据处理
-            3 新闻爬虫
-            4 service api
-            5 自动化部署
-            6 docker容器化
-            工作内容：后台相关api、数据迁移，后台管理系统，搭建docker容器云，使用TensorFlow训练神经网络，构建相关rpc框架
-            技术栈：MySql/MsSql,html5,css3,Golang,Angular4,Java,C#,Python，
-            相关框架及技术：Docker,Kubernetes,TensorFlow,thrift,protobuf
-skill: # 技能清单
-  -
-    section: 前端
+          技术栈:MySql/MsSql,Html5,Css3,Golang,Angular4,Java,C#,Python
+  - section: William O'neil China
     project:
-      -
-        name: HTML&CSS
+      - name: 全栈工程师
+        date: 2017.6-2018.5
+        img:
+        website:
+        source_code:
         des: !!md |
-          能够编写语义化的 HTML，完成较复杂的布局
-      -
-        name: JavaScript
-        des: !!md |
-          使用jQuery 类库编码
-          了解JS模块化、面向对象的方式编程、ES6新特性
-      -
-        name: 前端框架
-        des: !!md |
-          前端三大框架avr都有所涉及，熟练使用angular构建前端项目，有过项目经验
-          前端安全、性能优化、http缓存
-  -
-    section: 后端
+          工作内容：后台相关api、数据迁移，后台管理系统，搭建Docker容器云，使用TensorFlow训练神经网络，构建相关rpc框架
+          技术栈：MySql/MsSql,Html5,Css3,Golang,Angular4,Java,C#,Python，
+          相关框架及技术：Docker,Kubernetes,TensorFlow,Thrift,Protobuf
+  - section: 绿庭集团
     project:
-      -
-        name: Python
+      - name: 技术主管
+        date: 2018.5-至今
+        img:
+        website:
+        source_code:
         des: !!md |
-          熟练使用Django、flask、tornado构建web应用
-          熟练使用Python作数据处理（股票金融数据）
-          熟练使用Python爬虫（主要是国内外的股票新闻）
-      -
-        name: Golang
-        des: !!md |
-          熟练使用beego框架构建web应用
+          工作内容：
+          1.搭建企业混合云
+          2.建立一套开发人员工作流
+          3.构建企业CI CD
+          4.规范前、后端规范
+          5.架构前、后端项目
+          6.人员工作安排以及审核
+          技术栈：MySql/MsSql,Html5,Css3,Golang,React,Angular,Vue,Python
+          相关框架及技术：Docker,Flask,Umi,Dva,Grpc
 
-
-  -
-    section: 其他属性
-    project:
-      -
-        name: jenkins自动化
-        des: !!md |
-          部署配置jenkins，完成公司web项目，api项目自动化部署
-          ios 和android app自动打包然后归档展示
-          部分项目使用docker自动生成生成容器并部署
-      -
-        name: docker容器编排
-        des: !!md |
-              使用docker容器化部分项目
-      -
-        name: 数据库
-        des: !!md |
-              熟练使用关系型数据库，以及redis
 ---
