@@ -1,7 +1,7 @@
 # resume
 
 see it
-[https://joker8023.github.io/resume/](https://joker8023.github.io/resume/)
+[https://joker8023.github.io/resume/resume](https://joker8023.github.io/resume/resume)
 
 ## Table of Contents
 
