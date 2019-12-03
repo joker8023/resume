@@ -16,7 +16,7 @@ github: https://github.com/joker8023
 website:
 online:
 print:
-head_portrait: http://cdn.cnviinet.com/avatar/WechatIMG1.jpeg
+head_portrait: http://cdn.cnviinet.com/avatar/311575359591_.pic.jpg
 apply_to_position: 全栈工程师 | 技术主管
 contact: # 联系方式
   - icon: fa-envelope
@@ -80,6 +80,7 @@ skill: # 技能清单
         des: !!md |
           熟练使用Gin,Beego构建Web应用
           使用Go搭建API网关
+          熟练使用GOlang构建微服务（GRPC）
   - section: 其他属性
     project:
       - name: Jenkins自动化
